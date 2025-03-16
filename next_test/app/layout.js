@@ -10,6 +10,7 @@ import { Inter } from 'next/font/google'
  }
  
  export default function RootLayout({ children }) {
+  // throw new Error('big oops')
    return (
      <html lang="en">
        <body className={inter.className}>
